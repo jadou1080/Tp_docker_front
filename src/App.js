@@ -28,7 +28,7 @@ function getBooks () {
       var divBooks = document.getElementById("books");
       divBooks.innerHTML = '';  
       if (!books || books.length === 0) {
-          divBooks.innerText = 'Pas de livre dispo';
+          divBooks.innerText = 'Pas de livre dispo gros nul';
       } else {
           var booksHtml = document.createElement('div'); 
           books.forEach(book => {
